@@ -40,6 +40,8 @@
 %   consistent with decision in SDK issue #33415.
 % - Re-adjust `yield*` rules: Per-element type checks are not supported,
 %   the given Iterable/Stream must have a safe element type.
+% - Specify that an <initializerExpression> cannot be a function literal. This
+%   does not break existing code, it has been implemented at least since 2013.
 %
 % 2.6
 % - Specify static analysis of a "callable object" invocation (where
